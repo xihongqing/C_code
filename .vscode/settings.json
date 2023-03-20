@@ -1,0 +1,14 @@
+{
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "__bit_reference": "cpp",
+        "__mutex_base": "cpp",
+        "tuple": "cpp",
+        "variant": "cpp"
+    }
+}
