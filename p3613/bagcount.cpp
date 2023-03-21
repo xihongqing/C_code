@@ -2,7 +2,7 @@
  * @Author: HongqingXi xiacrossthesea@gmail.com
  * @Date: 2023-03-20 09:45:08
  * @LastEditors: HongqingXi xiacrossthesea@gmail.com
- * @LastEditTime: 2023-03-21 09:46:36
+ * @LastEditTime: 2023-03-21 10:12:31
  * @FilePath: /CProject/p3613/bagcount.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -10,7 +10,7 @@
 using namespace std;
 
 int main(){
-    //指针数组可以做
+    //
     int n,q;
     int sign,flag;
     cin>>n>>q;
@@ -34,6 +34,8 @@ int main(){
                 if((a[k][0]==x)&&(a[k][1]==y)){
                     m[l++]=a[k][2];
                     flag=1;
+                    cout<<a[k][2]<<endl;
+                    break;
                 }
             }
             if(flag==0){
@@ -41,14 +43,7 @@ int main(){
             }
         }
     }
-    for(int i=0;i<l;i++){
-        if(i!=0){
-            cout<<endl<<m[i];
-        }
-        else{
-            cout<<m[i];            
-        }
-    }
+
     
     return 0;
 }
